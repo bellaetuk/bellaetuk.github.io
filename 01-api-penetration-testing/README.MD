@@ -58,3 +58,71 @@ This project improved my understanding of:
 4.Identifying insecure API behavior
 5.Security documentation practices
 It also strengthened my hands-on experience using Burp Suite and Postman for API security testing.
+
+    Screenshots
+Screenshots demonstrating intercepted requests, modified parameters, and responses are included in the /screenshots directory.
+##  Screenshots
+
+### Create User Request in Postman- API 6-MASS ASSIGNMENT
+![Request](11.6.1.jpg)
+
+### Get User Request in Postmant- API 6-MASS ASSIGNMENT
+![Request](11.6.2.jpg)
+
+### Get User Login Request in Postman- API7 – Security Misconfiguration (CORS)
+![Request](11.7.1.jpg) 
+
+###Create User Request in Postman- API7 – Security Misconfiguration (CORS)
+![Request](11.7.2.jpg)
+
+### Create User Request in Burpsuiten- API7 – Security Misconfiguration (CORS)
+![Request](11.7.3.jpg)
+
+### Get User Login Request in Burpsuite- API7 – Security Misconfiguration (CORS)
+![Request](11.7.4.jpg)
+
+### Get User Key Request in Burpsuite- API7 – Security Misconfiguration (CORS)
+![Request](11.7.5.jpg)
+
+### sqlmap to automate testing in Burpsuite- API 8-SQL Injection
+![Request](11.8.1.jpg)
+
+### Error based SQL Injection API 8 SQL Injection
+![Request](11.8.2.jpg)
+
+### Time based SQL Injection API 8 SQL Injection
+![Request](11.8.3.jpg)
+
+### Union SQL Injection API 8 SQL Injection
+![Request](11.8.4.jpg)
+
+### Exposed SQL DATABASE- API 8 SQL Injection
+![Request](11.8.5.jpg)
+
+### Exposed ogin credentials- API 8 SQL Injection
+![Request](11.8.6.jpg)
+
+### Successfully logged in and access protected resources using Burpsuite - API 8 SQL Injection
+![Request](11.8.7.jpg)
+
+### Rate limiting testing (v1 endpoint) on Burpsuite - API9 – Improper Asset Management
+![Request](11.9.1.jpg)
+
+### Rate limiting testing (v2 endpoint) on Burpsuite - API9 – Improper Asset Management
+![Request](11.9.2.jpg)
+
+### Brute-force attack against /v1 on Burpsuite - API9 – Improper Asset Management
+![Request](11.9.3.jpg)
+
+### API returning a confirmation that logging was not implemented on Burpsuitte - API10 – Lack of Logging and Monitoring
+![Request](11.10.1.jpg)
+
+### create User Request on Postman- API10 – Lack of Logging and Monitoring
+![Request](11.10.2.jpg)
+
+### Rate limiting testing (v1 endpoint) on Burpsuite - API10 – Lack of Logging and Monitoring
+![Request](11.10.3.jpg)
+
+### Exposed Token on Burpsuite - API10 – Lack of Logging and Monitoring
+![Request](11.10.4.jpg)
+
